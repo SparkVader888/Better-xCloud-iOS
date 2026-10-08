@@ -1,0 +1,23 @@
+# Xcode
+.DS_Store
+*.pbxuser
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace
+xcuserdata/
+build/
+DerivedData/
+*.dSYM.zip
+*.dSYM
+
+# Swift
+.build/
+*.swiftpm
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Other
+.env
+*.ipa
